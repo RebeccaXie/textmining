@@ -8,7 +8,7 @@
 - 数据: 清洗后的数据 
 - 分别算了每条评论的正面分和负面分，最后取了商品所有清洗后评论的得分均值
 ## 0-1分类
-- w2v_classify.csv 是结果
+- w2v_model.csv 是结果
 - accuracy.txt 为各分类器分类的混淆矩阵
 - 数据: 开源酒店评论数据集
 - 用word2vec训练模型，svm/NB/LinearRegression/随机森林等分类器做的正负面判断，盲调待改进
